@@ -1,0 +1,26 @@
+{
+  "name": "acorn-proposals-set",
+  "version": "0.0.1",
+  "description": "support tc39 proposals for acorn",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.mjs",
+    "test": "test"
+  },
+  "keywords": [
+    "acorn",
+    "plugin",
+    "proposal",
+    "tc39"
+  ],
+  "author": "cinchen <eryue02202@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "acorn-export-default-from": "^1.0.0-beta.2",
+    "acorn-import-assertion-v2": "^1.0.1"
+  },
+  "devDependencies": {
+    "rollup": "^3.17.3"
+  }
+}
